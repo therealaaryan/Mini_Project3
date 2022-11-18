@@ -11,6 +11,3 @@ with sr.Microphone() as source:
         print("You said: {}".format(text))
     except:
         print("Sorry couldn't recognize your speech.")
-
-
-print("hello world")
