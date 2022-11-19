@@ -8,4 +8,4 @@ with sr.Microphone() as source:
     try:
         text = r.recognize_google(audio)
     except:
-        print("Couldn't recognize your speech!")
+        pass
