@@ -2,7 +2,7 @@ from tkinter import *
 import Code_5thSem as csem
 
 root = Tk()
-root.geometry("700x350")
+root.geometry("1600x1400")
 root.title("Speech to Text")
 
 try:
